@@ -1,0 +1,127 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gaegu', cursive;
+}
+
+header{
+    position: fixed;
+    top: 0px;
+    left: 350px;
+    color: olive;
+    width: 90%;
+    height: 100px;
+    background: radial-gradient(circle, #5b15ca, #05da65);
+    text-align: center;
+    font-weight: 800;
+    font-size: 100px;
+    line-height: 80px;
+    box-shadow: 1px 1px 30px 1px rgba(0,0,0,.3);
+    z-index: 1;
+}
+h1{
+    background-color: palevioletred;
+    width: 600px;
+    height: 300px;
+    text-align: left;
+}
+.izq{
+    width: 400px;
+    height: calc(100% - 80px);
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    background: rgb(22, 37, 251);
+}
+    .crear-nota{
+        background: rgb(85, 94, 212);
+        height: 310px;
+        width: 310px;
+        position: fixed;
+        top: 80px;
+        left: -430px;
+        padding: 70px;
+    }
+    .crear-nota>input, .crear-nota>textarea{
+        width: 100%;
+        position: relative;
+        float: left;
+        outline: none;
+        border: none;
+        border-radius: 20px;
+        background: white;
+
+        box-sizing: border-box;
+    }
+    .crear-nota{
+        height: 30px;
+        font-size: 25px;
+        font-weight: 700;
+        color: #000000;
+        margin-left: 20%;
+    }
+.der{
+    height: calc(100% - 80px);
+    position: fixed;
+    width: calc(100% - 350px);
+    right: 0px;
+    bottom: 0px;
+    background-color: rgba(159, 224, 28, 0.89);
+    z-index: 8;
+}
+.deri{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    float: left;
+    background-image:url(https://previews.123rf.com/images/bobrovee/bobrovee1609/bobrovee160900080/62794555-tama%C3%B1o-a4-hoja-amarilla-vertical-de-papel-viejo-con-la-rejilla-de-un-cent%C3%ADmetro.jpg);
+    background-size: cover;
+    filter: opacity(60%);
+}    
+.button{
+    color: rgb(76, 6, 238);
+}
+    .trabajo{ background-color: green; box-shadow: 1px 1px 1px crimson}
+    .escuela{ background-color:yellowgreen; box-shadow: 1px 1px 1px rgb(180, 172, 53)}
+    .personal{ background-color: navajowhite; box-shadow: 1px 1px 1px rgb(8, 138, 199)}
+    .nota{
+        width: 300px;
+        height: 300px;
+        position: relative;
+        float: left;
+        margin-left: 15px;
+        margin-top: 15px;
+        box-sizing: border-box;
+        font-size: 20px;
+    }
+    .eliminar{
+        position: absolute;
+        top: 3px;
+        right: 3px;
+        width: 10px;
+        height: 10px;
+        font-size: 20px;    
+        text-align: center;
+        cursor: pointer;
+        color: rgba(255, 255, 255,.8);
+        transition: .2s all;
+    }
+    .eliminar{
+        color: rgba(0, 0, 0.6);
+    }
+.msj{
+    width: 300px;
+    height: 50px;
+    position: relative;
+    float: left;
+    background-color: red;
+    color:#FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    margin-left: 25px;
+    line-height: 50;
+    margin-top: 20px;
+    text-align: center;
+    transition: .3s all;
+}
